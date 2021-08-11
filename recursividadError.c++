@@ -11,10 +11,13 @@ int factorial(int num){
     }
 }
 
+// without close condition
+int factorialError(int num){
+    return factorial(num-1) - factorial(num-2);
+}
 
 int main (){
-    cout << factorial(2) << endl;
-    cout << factorial(3) << endl;
-    cout << factorial(4) << endl;
+    cout << factorialError(8) << endl;
+
     return 0;
 }

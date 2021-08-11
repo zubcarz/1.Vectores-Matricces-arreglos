@@ -2,6 +2,7 @@
 comienza en 0 y 1, 
 cada número subsiguiente es la suma de los dos números anteriores de la serie.
 */
+
 using namespace std;
 #include <stdio.h>
 #include <iostream>

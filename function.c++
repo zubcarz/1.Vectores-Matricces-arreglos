@@ -6,9 +6,13 @@
 
 #include <iostream>
 using namespace std;
+
+// protipo
 int bisiesto(int);
 int fecha_valida(int, int, int);
 int calcular_edad(int, int, int, int, int, int);
+int calc(int, int);
+
 int main()
 {
     int diaa, mesa, anioa, dian, mesn, anion, edad;
@@ -39,6 +43,10 @@ int main()
          << "Edad : " << edad << endl
          << endl;
     system("pause");
+}
+
+int calc(int a, int b){
+    return a + b;
 }
 
 int calcular_edad(int da, int ma, int aa, int dn, int mn, int an)

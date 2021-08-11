@@ -18,14 +18,16 @@ int main()
 {
     int x = 0;
     // paso por valor
-    printf( "% d ", valueFunction(x));
-    printf( "\n");
-    printf( "% d ", x);
-    printf( "\n");
+    // printf( "% d ", valueFunction(x));
+    // printf( "\n");
+    // printf( "% d ", x);
+    // printf( "\n");
 
     // paso por referencia
     printf( "% d ", referenceValueFunction(x));
+    // 4
     printf( "\n");
     printf( "% d ", x);
+    // 2
 }
 

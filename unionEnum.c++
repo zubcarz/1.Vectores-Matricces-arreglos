@@ -9,25 +9,34 @@ using namespace std;
 
 int main()
 {
-    union char_int
-    {
-        int num;
-        char character;
-    } x;
+    // union char_int
+    // {
+    //     int num;
+    //     char character;
+    // } x;
 
-    x = {'a'};
+    // x = {'a'};
 
-    cout << "x num: " << x.num << endl;
-    cout << "x char: " << x.character << endl;
+    // cout << "x num: " << x.num << endl;
+    // cout << "x char: " << x.character << endl;
 
     enum color
     {
-        red = 1,
-        yellow,
-        green = 20,
+        red,
+        yellow = 20,
+        green,
         blue
     };
+
     color col = red;
-    int n = blue;
-    cout << col;
+    color col2 = yellow;
+    color col3 = green;
+    color col4 = blue;
+    cout << col << endl;
+    cout << col2 << endl;
+    cout << col3 << endl;
+    cout << col4 << endl;
+
+    // int n = blue;
+    // cout << col;
 }
